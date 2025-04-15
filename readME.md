@@ -3,7 +3,7 @@
 ## Description
 
 
-The purpose of this model is to classify wether or not a transaction is fraudulent. Fraudulent data is determined by the distance the transaction was made from the persons home; distance from last purchase; average purchase total; and if the person used a card, chip, pin or made the purchase at a repeat retailer.
+The purpose of this model is to classify whether or not a transaction is fraudulent. Fraudulent data is determined by the distance the transaction was made from the persons home; distance from last purchase; average purchase total; and if the person used a card, chip, pin or made the purchase at a repeat retailer.
 
 The model employs RandomForest Classification to make these predictions. Random Forest Classification is a machine learning algorithm that uses an ensemble of decision trees to make predictions, particularly for classification tasks. It combines the predictions of multiple, uncorrelated decision trees to improve accuracy and robustness. 
 
