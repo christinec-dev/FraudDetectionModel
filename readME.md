@@ -1,9 +1,10 @@
 # Fraud Detection: Random Forest Classification
 
+**IMPORTANT**: The notebook for this model can be run either via the instructions below, or it can be viewed directly on [Kaggle](https://www.kaggle.com/code/christinecoomans/fraud-detection-notebook).
+
 ## Description
 
-
-The purpose of this model is to classify whether or not a transaction is fraudulent. Fraudulent data is determined by the distance the transaction was made from the persons home; distance from last purchase; average purchase total; and if the person used a card, chip, pin or made the purchase at a repeat retailer.
+The purpose of this model is to classify wether or not a transaction is fraudulent. Fraudulent data is determined by the distance the transaction was made from the persons home; distance from last purchase; average purchase total; and if the person used a card, chip, pin or made the purchase at a repeat retailer.
 
 The model employs RandomForest Classification to make these predictions. Random Forest Classification is a machine learning algorithm that uses an ensemble of decision trees to make predictions, particularly for classification tasks. It combines the predictions of multiple, uncorrelated decision trees to improve accuracy and robustness. 
 
@@ -43,7 +44,7 @@ The original data aqcuired from Kaggle can be accessed through the link provided
 - **model/:**
     - `notebook.ipynb`: Jupyter notebook detailing the training process.
     - `requirements.txt`: Requirements for jupyter notebook.
-- **app.py**: Streamlit application code for deployment.
+- **streamlit/app.py**: Streamlit application code for deployment.
 - **requirements.txt**: Requirements for streamlit app.
 - **README.md:** Project documentation.
 
@@ -59,6 +60,9 @@ The original data aqcuired from Kaggle can be accessed through the link provided
 2. Run all cells in the notebook.
 
 ## Sample Visualization
+![Screenshot 2025-04-16 224503](https://github.com/user-attachments/assets/dd1c4b5e-0085-44e6-b387-7a91d27ad5f3)
+![Screenshot 2025-04-16 224455](https://github.com/user-attachments/assets/88a7b152-de75-475a-bce0-43f781f6545f)
+![Screenshot 2025-04-16 224441](https://github.com/user-attachments/assets/e9bf4dd5-6351-4723-b95f-13a23c0c97ee)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
